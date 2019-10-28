@@ -1,0 +1,4 @@
+<launch>
+	<node name="turtlesim_node" pkg="turtlesim" type="turtlesim_node" />   
+	<node name="movecircle" pkg="elaborato_1b" type="movecircle" output="screen" />
+</launch>
