@@ -1,0 +1,4 @@
+<launch>
+	<node name="talker" pkg="elaborato_1a" type="talker" output="screen" launch-prefix="gnome-terminal --command" />   
+	<node name="listener" pkg="elaborato_1a" type="listener" output="screen" launch-prefix="gnome-terminal --command" />
+</launch>
